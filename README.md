@@ -16,3 +16,7 @@ docker compose up -d
 ```bash
 ./firecrawl.sh <url> <max_pages> <destination_folder>
 ```
+
+## Status
+
+- Open `http://localhost:3002/admin/@/queues/` to see the status of the crawler.
