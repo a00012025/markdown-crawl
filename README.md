@@ -5,6 +5,8 @@
 ```bash
 git clone https://github.com/mendableai/firecrawl
 cd firecrawl
+cp apps/api/.env.example .env
+sed -i 's/USE_DB_AUTHENTICATION=true/USE_DB_AUTHENTICATION=false/' .env
 docker compose build
 docker compose up -d
 ```
