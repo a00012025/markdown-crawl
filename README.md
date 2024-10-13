@@ -1,4 +1,6 @@
-# markdown-crawl
+# Markdown Crawler
+
+Crawl a website and save the markdown files to a folder. I can be used for RAG.
 
 ## Setup
 
@@ -14,7 +16,11 @@ docker compose up -d
 ## Usage
 
 ```bash
+# Crawl a website and save the markdown files to a folder
 ./crawl.sh <url> <max_pages> <destination_folder>
+
+# Scrape a single page and save the markdown file to a folder
+./scrape.sh <url> <destination_folder>
 ```
 
 ## Status
