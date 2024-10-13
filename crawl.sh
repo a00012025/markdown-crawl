@@ -25,4 +25,4 @@ mkdir -p "$dest_folder"
 
 # Run the Python script with the provided arguments
 script_dir="$(dirname "$0")"
-python3 "$script_dir/main.py" "$url" "$max_pages" "$dest_folder"
+python3 "$script_dir/crawl.py" "$url" "$max_pages" "$dest_folder"

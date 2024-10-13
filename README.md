@@ -14,7 +14,7 @@ docker compose up -d
 ## Usage
 
 ```bash
-./firecrawl.sh <url> <max_pages> <destination_folder>
+./crawl.sh <url> <max_pages> <destination_folder>
 ```
 
 ## Status
